@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Quick Txt Saver",
+  "version": "1.0",
+  "description": "選択したテキストを右クリックから即座に.txtとしてダウンロードします",
+  "permissions": [
+    "contextMenus",
+    "downloads"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
